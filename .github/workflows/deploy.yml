@@ -41,8 +41,9 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           port: ${{ secrets.EC2_SSH_PORT }}
           script: |
-            docker login ghcr.io -u ${{ github.actor }} -p ${{ secrets.GHCR_READ_TOKEN }}
-            docker pull ghcr.io/${{ github.repository }}:latest
-            docker stop qyltpweb || true
-            docker rm qyltpweb || true
-            docker run -d --restart=always --name qyltpweb -p 80:3000 ghcr.io/${{ github.repository }}:latest
+            set -e
+            sudo docker login ghcr.io -u ${{ github.actor }} -p ${{ secrets.GHCR_READ_TOKEN }}
+            sudo docker pull ghcr.io/${{ github.repository }}:latest
+            sudo docker stop qyltpweb || true
+            sudo docker rm qyltpweb || true
+            sudo docker run -d --restart=always --name qyltpweb -p 80:3000 ghcr.io/${{ github.repository }}:latest
