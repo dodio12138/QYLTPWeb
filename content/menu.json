@@ -1,0 +1,67 @@
+{
+  "currency": "GBP",
+  "categories": [
+    {
+      "name": { "en": "Signature Hand-Pulled Noodles", "zh": "招牌手工拉面" },
+      "items": [
+        {
+          "name": { "en": "Classic Beef Noodle Soup", "zh": "经典牛肉汤面" },
+          "description": {
+            "en": "Slow-braised beef, clear broth, coriander, chili oil.",
+            "zh": "慢炖牛肉、清汤、香菜与辣油。"
+          },
+          "price": 13.5
+        },
+        {
+          "name": { "en": "Spicy Cumin Lamb Noodles", "zh": "香辣孜然羊肉面" },
+          "description": {
+            "en": "Wok-fried lamb, cumin, peppers, wide noodles.",
+            "zh": "爆炒羊肉、孜然、甜椒与宽面。"
+          },
+          "price": 14.0
+        },
+        {
+          "name": { "en": "Braised Aubergine Vegan Noodles", "zh": "红烧茄子素面" },
+          "description": {
+            "en": "Soy-braised aubergine, mushrooms, hand-pulled noodles.",
+            "zh": "酱烧茄子、蘑菇与手工拉面。"
+          },
+          "price": 12.0
+        }
+      ]
+    },
+    {
+      "name": { "en": "Cold Dishes & Sides", "zh": "凉菜与小食" },
+      "items": [
+        {
+          "name": { "en": "Smashed Cucumber Salad", "zh": "拍黄瓜" },
+          "description": { "en": "Garlic, black vinegar, sesame.", "zh": "蒜香、陈醋、芝麻。" },
+          "price": 5.8
+        },
+        {
+          "name": { "en": "Crispy Chicken Dumplings (6)", "zh": "脆底鸡肉煎饺（6个）" },
+          "description": {
+            "en": "Pan-fried dumplings, house chili dip.",
+            "zh": "香煎饺子，配自制辣酱。"
+          },
+          "price": 7.5
+        }
+      ]
+    },
+    {
+      "name": { "en": "Drinks", "zh": "饮品" },
+      "items": [
+        {
+          "name": { "en": "Plum Juice", "zh": "酸梅汁" },
+          "description": { "en": "House-style iced plum drink.", "zh": "店内自制冰镇酸梅饮。" },
+          "price": 3.9
+        },
+        {
+          "name": { "en": "Jasmine Tea", "zh": "茉莉花茶" },
+          "description": { "en": "Free refill pot for dine-in.", "zh": "堂食可续壶。" },
+          "price": 3.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": { "en": "Lanzhou Noodle House", "zh": "兰州拉面馆" },
+  "tagline": {
+    "en": "Hand-pulled noodles in the heart of London",
+    "zh": "伦敦市中心的手工拉面"
+  },
+  "description": {
+    "en": "Freshly pulled noodles, rich broths, and classic northern Chinese sides.",
+    "zh": "现拉面条、浓郁汤底，以及经典北方面点小吃。"
+  },
+  "address": {
+    "en": "88 High Holborn, London WC1V 6AA",
+    "zh": "伦敦 High Holborn 88号，WC1V 6AA"
+  },
+  "phone": "+44 20 7123 4567",
+  "email": "hello@yournoodle.co.uk",
+  "hours": [
+    {
+      "day": { "en": "Mon-Thu", "zh": "周一至周四" },
+      "time": "11:30-21:30"
+    },
+    {
+      "day": { "en": "Fri-Sat", "zh": "周五至周六" },
+      "time": "11:30-22:30"
+    },
+    {
+      "day": { "en": "Sun", "zh": "周日" },
+      "time": "12:00-21:00"
+    }
+  ],
+  "allergenNotice": {
+    "en": "Please tell us about allergies before ordering. Dishes may contain traces of nuts, gluten, sesame, soy, egg, and shellfish.",
+    "zh": "请在点餐前告知过敏信息。菜品可能含有坚果、麸质、芝麻、大豆、鸡蛋和贝类痕量成分。"
+  },
+  "reservation": {
+    "opentableUrl": "https://www.opentable.com/",
+    "whatsapp": "https://wa.me/442071234567",
+    "phone": "+44 20 7123 4567"
+  }
+}
